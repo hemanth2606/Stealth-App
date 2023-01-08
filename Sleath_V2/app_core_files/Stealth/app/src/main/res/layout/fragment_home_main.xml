@@ -1,0 +1,669 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollIndicator"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Health.homeMainFragment">
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:background="@color/white"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Stealth"
+            android:layout_marginStart="10dp"
+            android:textColor="@color/grey1"
+            android:textSize="35dp" />
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="70dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                >
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="60dp"
+                        android:layout_height="90dp"
+                        app:cardBackgroundColor="#0000FF"
+                        app:cardCornerRadius="10dp"
+                        app:cardElevation="20dp"
+                        android:layout_marginBottom="35dp"
+                        app:layout_constraintBottom_toBottomOf="@+id/EnergySaverCardView"
+                        app:layout_constraintEnd_toStartOf="@+id/EnergySaverCardView"
+                        app:layout_constraintStart_toStartOf="@+id/EnergySaverCardView"
+                        app:layout_constraintTop_toTopOf="@+id/EnergySaverCardView" >
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:src="@drawable/ic_voltage"/>
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/EnergySaverCardView"
+                        android:layout_width="300dp"
+                        android:layout_height="170dp"
+                        android:layout_gravity="center"
+                        app:cardBackgroundColor="@color/grey0"
+                        app:cardCornerRadius="10dp"
+                        android:layout_marginStart="25dp"
+                        app:cardElevation="10dp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+                        <androidx.constraintlayout.widget.ConstraintLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <LinearLayout
+                                android:id="@+id/EnergySaverLinearLayout"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical"
+                                android:layout_marginTop="22dp"
+                                android:layout_marginStart="45dp"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="parent">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Energy Saver"
+                                    android:textColor="@color/white"
+                                    android:textSize="25dp"
+                                    android:fontFamily="@font/marvel_bold"/>
+
+                                <TextView
+                                    android:id="@+id/energySaverDate"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="14 June,2022 10:26 PM"
+                                    android:textColor="@color/white"
+                                    android:textSize="14dp" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:id="@+id/EnergySaverLinear2"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="22dp"
+                                android:layout_marginEnd="15dp"
+                                android:orientation="vertical"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintHorizontal_bias="1"
+                                app:layout_constraintStart_toEndOf="@+id/EnergySaverLinearLayout"
+                                app:layout_constraintTop_toTopOf="parent">
+
+                                <LinearLayout
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="horizontal"
+                                    android:layout_gravity="end">
+                                    <TextView
+                                        android:id="@+id/energySaverText"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="--"
+                                        android:textColor="@color/white"
+                                        android:textSize="25dp"
+                                        android:fontFamily="@font/marvel_bold"/>
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="W"
+                                        android:layout_marginStart="2dp"
+                                        android:textColor="@color/white"
+                                        android:textSize="15dp"
+                                        android:layout_marginBottom="10dp"/>
+                                </LinearLayout>
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="end"
+                                    android:text="1000 Watts"
+                                    android:textColor="@color/white"
+                                    android:textSize="14dp" />
+                            </LinearLayout>
+
+                            <View
+                                android:layout_width="match_parent"
+                                android:layout_height="1dp"
+                                android:background="@color/white"
+                                app:layout_constraintBottom_toBottomOf="parent"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintStart_toStartOf="parent"
+                                android:layout_marginStart="45dp"
+                                android:layout_marginEnd="20dp"
+                                app:layout_constraintVertical_bias=".55"
+                                app:layout_constraintTop_toTopOf="parent" />
+                        </androidx.constraintlayout.widget.ConstraintLayout>
+                    </androidx.cardview.widget.CardView>
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="30dp">
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="60dp"
+                        android:layout_height="90dp"
+                        app:cardBackgroundColor="#0000FF"
+                        app:cardCornerRadius="10dp"
+                        app:cardElevation="20dp"
+                        android:layout_marginBottom="35dp"
+                        app:layout_constraintBottom_toBottomOf="@+id/SoilMoistureCardView"
+                        app:layout_constraintEnd_toStartOf="@+id/SoilMoistureCardView"
+                        app:layout_constraintStart_toStartOf="@+id/SoilMoistureCardView"
+                        app:layout_constraintTop_toTopOf="@+id/SoilMoistureCardView" >
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:src="@drawable/ic_soil"/>
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/SoilMoistureCardView"
+                        android:layout_width="300dp"
+                        android:layout_height="170dp"
+                        android:layout_gravity="center"
+                        app:cardBackgroundColor="@color/grey0"
+                        app:cardCornerRadius="10dp"
+                        android:layout_marginStart="25dp"
+                        app:cardElevation="10dp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+                        <androidx.constraintlayout.widget.ConstraintLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <LinearLayout
+                                android:id="@+id/SoilMoistureLinearLayout"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical"
+                                android:layout_marginTop="22dp"
+                                android:layout_marginStart="45dp"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="parent">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Soil Moisture"
+                                    android:textColor="@color/white"
+                                    android:textSize="25dp"
+                                    android:fontFamily="@font/marvel_bold"/>
+
+                                <TextView
+                                    android:id="@+id/SoilMoistureDate"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="14 June,2022 10:26 PM"
+                                    android:textColor="@color/white"
+                                    android:textSize="14dp" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:id="@+id/SoilMoistureLinearLayout2"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="22dp"
+                                android:layout_marginEnd="15dp"
+                                android:orientation="vertical"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintHorizontal_bias="1"
+                                app:layout_constraintStart_toEndOf="@+id/SoilMoistureLinearLayout"
+                                app:layout_constraintTop_toTopOf="parent">
+
+                                <LinearLayout
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="horizontal"
+                                    android:layout_gravity="end">
+                                    <TextView
+                                        android:id="@+id/SoilMoistureText"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="80"
+                                        android:textColor="@color/white"
+                                        android:textSize="25dp"
+                                        android:fontFamily="@font/marvel_bold"/>
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="%"
+                                        android:layout_marginStart="2dp"
+                                        android:textColor="@color/white"
+                                        android:textSize="15dp"
+                                        android:layout_marginBottom="10dp"/>
+                                </LinearLayout>
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="end"
+                                    android:text="Moisture"
+                                    android:textColor="@color/white"
+                                    android:textSize="14dp" />
+                            </LinearLayout>
+
+                            <View
+                                android:layout_width="match_parent"
+                                android:layout_height="1dp"
+                                android:background="@color/white"
+                                app:layout_constraintBottom_toBottomOf="parent"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintStart_toStartOf="parent"
+                                android:layout_marginStart="45dp"
+                                android:layout_marginEnd="20dp"
+                                app:layout_constraintVertical_bias=".55"
+                                app:layout_constraintTop_toTopOf="parent" />
+                        </androidx.constraintlayout.widget.ConstraintLayout>
+                    </androidx.cardview.widget.CardView>
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="30dp">
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="60dp"
+                        android:layout_height="90dp"
+                        app:cardBackgroundColor="#0000FF"
+                        app:cardCornerRadius="10dp"
+                        app:cardElevation="20dp"
+                        android:layout_marginBottom="35dp"
+                        app:layout_constraintBottom_toBottomOf="@+id/WeatherCardView"
+                        app:layout_constraintEnd_toStartOf="@+id/WeatherCardView"
+                        app:layout_constraintStart_toStartOf="@+id/WeatherCardView"
+                        app:layout_constraintTop_toTopOf="@+id/WeatherCardView" >
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:src="@drawable/ic_blood_oxygen"/>
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/WeatherCardView"
+                        android:layout_width="300dp"
+                        android:layout_height="170dp"
+                        android:layout_gravity="center"
+                        app:cardBackgroundColor="@color/grey0"
+                        app:cardCornerRadius="10dp"
+                        android:layout_marginStart="25dp"
+                        app:cardElevation="10dp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+                        <androidx.constraintlayout.widget.ConstraintLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <LinearLayout
+                                android:id="@+id/WeatherLinearLayout"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical"
+                                android:layout_marginTop="22dp"
+                                android:layout_marginStart="45dp"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="parent">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Humidity"
+                                    android:textColor="@color/white"
+                                    android:textSize="25dp"
+                                    android:fontFamily="@font/marvel_bold"/>
+
+                                <TextView
+                                    android:id="@+id/WeatherDate"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="14 June,2022 10:26 PM"
+                                    android:textColor="@color/white"
+                                    android:textSize="14dp" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:id="@+id/WeatherLinearLayout2"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="22dp"
+                                android:layout_marginEnd="15dp"
+                                android:orientation="vertical"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintHorizontal_bias="1"
+                                app:layout_constraintStart_toEndOf="@+id/WeatherLinearLayout"
+                                app:layout_constraintTop_toTopOf="parent">
+
+                                <LinearLayout
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="horizontal"
+                                    android:layout_gravity="end">
+                                    <TextView
+                                        android:id="@+id/WeatherText"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="--"
+                                        android:textColor="@color/white"
+                                        android:textSize="25dp"
+                                        android:fontFamily="@font/marvel_bold"/>
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="%"
+                                        android:layout_marginStart="2dp"
+                                        android:textColor="@color/white"
+                                        android:textSize="15dp"
+                                        android:layout_marginBottom="10dp"/>
+                                </LinearLayout>
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="end"
+                                    android:text="Temperature"
+                                    android:textColor="@color/white"
+                                    android:textSize="14dp" />
+                            </LinearLayout>
+
+                            <View
+                                android:layout_width="match_parent"
+                                android:layout_height="1dp"
+                                android:background="@color/white"
+                                app:layout_constraintBottom_toBottomOf="parent"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintStart_toStartOf="parent"
+                                android:layout_marginStart="45dp"
+                                android:layout_marginEnd="20dp"
+                                app:layout_constraintVertical_bias=".55"
+                                app:layout_constraintTop_toTopOf="parent" />
+                        </androidx.constraintlayout.widget.ConstraintLayout>
+                    </androidx.cardview.widget.CardView>
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="30dp">
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="60dp"
+                        android:layout_height="90dp"
+                        app:cardBackgroundColor="#0000FF"
+                        app:cardCornerRadius="10dp"
+                        app:cardElevation="20dp"
+                        android:layout_marginBottom="35dp"
+                        app:layout_constraintBottom_toBottomOf="@+id/LightControllerCardView"
+                        app:layout_constraintEnd_toStartOf="@+id/LightControllerCardView"
+                        app:layout_constraintStart_toStartOf="@+id/LightControllerCardView"
+                        app:layout_constraintTop_toTopOf="@+id/LightControllerCardView" >
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:src="@drawable/ic_bulb"/>
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/LightControllerCardView"
+                        android:layout_width="300dp"
+                        android:layout_height="170dp"
+                        android:layout_gravity="center"
+                        app:cardBackgroundColor="@color/grey0"
+                        app:cardCornerRadius="10dp"
+                        android:layout_marginStart="25dp"
+                        app:cardElevation="10dp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+                        <androidx.constraintlayout.widget.ConstraintLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <LinearLayout
+                                android:id="@+id/LightControllerLinearLayout"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical"
+                                android:layout_marginTop="22dp"
+                                android:layout_marginStart="45dp"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="parent">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="LightController"
+                                    android:textColor="@color/white"
+                                    android:textSize="25dp"
+                                    android:fontFamily="@font/marvel_bold"/>
+
+                                <TextView
+                                    android:id="@+id/LightControllerDate"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="14 June,2022 10:26 PM"
+                                    android:textColor="@color/white"
+                                    android:textSize="14dp" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:id="@+id/LightControllerLinearLayout2"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="22dp"
+                                android:layout_marginEnd="15dp"
+                                android:orientation="vertical"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintHorizontal_bias="1"
+                                app:layout_constraintStart_toEndOf="@+id/LightControllerLinearLayout"
+                                app:layout_constraintTop_toTopOf="parent">
+
+                                <LinearLayout
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="horizontal">
+                                    <TextView
+                                        android:id="@+id/userBMI"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="OFF"
+                                        android:textColor="@color/white"
+                                        android:textSize="25dp"
+                                        android:fontFamily="@font/marvel_bold"/>
+                                </LinearLayout>
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="end"
+                                    android:text="Status"
+                                    android:textColor="@color/white"
+                                    android:textSize="14dp" />
+                            </LinearLayout>
+
+                            <View
+                                android:layout_width="match_parent"
+                                android:layout_height="1dp"
+                                android:background="@color/white"
+                                app:layout_constraintBottom_toBottomOf="parent"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintStart_toStartOf="parent"
+                                android:layout_marginStart="45dp"
+                                android:layout_marginEnd="20dp"
+                                app:layout_constraintVertical_bias=".55"
+                                app:layout_constraintTop_toTopOf="parent" />
+                        </androidx.constraintlayout.widget.ConstraintLayout>
+                    </androidx.cardview.widget.CardView>
+                </androidx.constraintlayout.widget.ConstraintLayout>
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="30dp">
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="60dp"
+                        android:layout_height="90dp"
+                        app:cardBackgroundColor="#0000FF"
+                        app:cardCornerRadius="10dp"
+                        app:cardElevation="20dp"
+                        android:layout_marginBottom="35dp"
+                        app:layout_constraintBottom_toBottomOf="@+id/TempControllerCardView"
+                        app:layout_constraintEnd_toStartOf="@+id/TempControllerCardView"
+                        app:layout_constraintStart_toStartOf="@+id/TempControllerCardView"
+                        app:layout_constraintTop_toTopOf="@+id/TempControllerCardView" >
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:src="@drawable/ic_gas_temp"/>
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/TempControllerCardView"
+                        android:layout_width="300dp"
+                        android:layout_height="170dp"
+                        android:layout_gravity="center"
+                        app:cardBackgroundColor="@color/grey0"
+                        app:cardCornerRadius="10dp"
+                        android:layout_marginStart="25dp"
+                        app:cardElevation="10dp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+                        <androidx.constraintlayout.widget.ConstraintLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <LinearLayout
+                                android:id="@+id/TempControllerLinearLayout"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical"
+                                android:layout_marginTop="22dp"
+                                android:layout_marginStart="45dp"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="parent">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Temperature"
+                                    android:textColor="@color/white"
+                                    android:textSize="25dp"
+                                    android:fontFamily="@font/marvel_bold"/>
+
+                                <TextView
+                                    android:id="@+id/TempControllerDate"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="14 June,2022 10:26 PM"
+                                    android:textColor="@color/white"
+                                    android:textSize="14dp" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:id="@+id/TempControllerLinearLayout2"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="22dp"
+                                android:layout_marginEnd="15dp"
+                                android:orientation="vertical"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintHorizontal_bias="1"
+                                app:layout_constraintStart_toEndOf="@+id/TempControllerLinearLayout"
+                                app:layout_constraintTop_toTopOf="parent">
+
+                                <LinearLayout
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="horizontal"
+                                    android:layout_gravity="end">
+                                    <TextView
+                                        android:id="@+id/TempControllerText"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="--"
+                                        android:textColor="@color/white"
+                                        android:textSize="25dp"
+                                        android:fontFamily="@font/marvel_bold"/>
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="°C"
+                                        android:layout_marginStart="2dp"
+                                        android:textColor="@color/white"
+                                        android:textSize="15dp"
+                                        android:layout_marginBottom="10dp"/>
+                                </LinearLayout>
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="end"
+                                    android:text="Temperature"
+                                    android:textColor="@color/white"
+                                    android:textSize="14dp" />
+                            </LinearLayout>
+
+                            <View
+                                android:layout_width="match_parent"
+                                android:layout_height="1dp"
+                                android:background="@color/white"
+                                app:layout_constraintBottom_toBottomOf="parent"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintStart_toStartOf="parent"
+                                android:layout_marginStart="45dp"
+                                android:layout_marginEnd="20dp"
+                                app:layout_constraintVertical_bias=".55"
+                                app:layout_constraintTop_toTopOf="parent" />
+                        </androidx.constraintlayout.widget.ConstraintLayout>
+                    </androidx.cardview.widget.CardView>
+                </androidx.constraintlayout.widget.ConstraintLayout>
+            </LinearLayout>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

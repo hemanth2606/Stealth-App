@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Stealth/app/src/main/res/drawable/alert_dialog_shape.xml" value="0.1361111111111111" />
+        <entry key="..\:/Stealth/app/src/main/res/drawable/button_shape.xml" value="0.10555555555555556" />
+        <entry key="..\:/Stealth/app/src/main/res/drawable/card_selector.xml" value="0.1" />
+        <entry key="..\:/Stealth/app/src/main/res/drawable/circle.xml" value="0.15185185185185185" />
+        <entry key="..\:/Stealth/app/src/main/res/drawable/drop_down_editor.xml" value="0.1085" />
+        <entry key="..\:/Stealth/app/src/main/res/drawable/gender_arrow_selected.xml" value="0.1361111111111111" />
+        <entry key="..\:/Stealth/app/src/main/res/drawable/gender_arrow_unselected.xml" value="0.1361111111111111" />
+        <entry key="..\:/Stealth/app/src/main/res/drawable/gender_selected.xml" value="0.1361111111111111" />
+        <entry key="..\:/Stealth/app/src/main/res/drawable/ic_about_description_help_svgrepo_com.xml" value="0.1785" />
+        <entry key="..\:/Stealth/app/src/main/res/drawable/ic_ahmedabad.xml" value="0.171" />
+        <entry key="..\:/Stealth/app/src/main/res/drawable/ic_arrow_left.xml" value="0.2085" />
+        <entry key="..\:/Stealth/app/src/main/res/drawable/ic_awake.xml" value="0.2" />
+        <entry key="..\:/Stealth/app/src/main/res/drawable/ic_bengaluru.xml" value="0.2025" />
+        <entry key="..\:/Stealth/app/src/main/res/drawable/ic_body_weight.xml" value="0.195" />
+        <entry key="..\:/Stealth/app/src/main/res/drawable/ic_bulb.xml" value="0.1" />
+        <entry key="..\:/Stealth/app/src/main/res/drawable/ic_calories.xml" value="0.2005" />
+        <entry key="..\:/Stealth/app/src/main/res/drawable/ic_chennai.xml" value="0.171" />
+        <entry key="..\:/Stealth/app/src/main/res/drawable/ic_distance.xml" value="0.2005" />
+        <entry key="..\:/Stealth/app/src/main/res/drawable/ic_drop_down.xml" value="0.1085" />
+        <entry key="..\:/Stealth/app/src/main/res/drawable/ic_edit.xml" value="0.2475" />
+        <entry key="..\:/Stealth/app/src/main/res/drawable/ic_electrohome.xml" value="0.124" />
+        <entry key="..\:/Stealth/app/src/main/res/drawable/ic_fan.xml" value="0.1" />
+        <entry key="..\:/Stealth/app/src/main/res/drawable/ic_female.xml" value="0.2085" />
+        <entry key="..\:/Stealth/app/src/main/res/drawable/ic_foot_background.xml" value="0.174" />
+        <entry key="..\:/Stealth/app/src/main/res/drawable/ic_footsteps.xml" value="0.174" />
+        <entry key="..\:/Stealth/app/src/main/res/drawable/ic_forward.xml" value="0.137" />
+        <entry key="..\:/Stealth/app/src/main/res/drawable/ic_health.xml" value="0.124" />
+        <entry key="..\:/Stealth/app/src/main/res/drawable/ic_hyderabad.xml" value="0.171" />
+        <entry key="..\:/Stealth/app/src/main/res/drawable/ic_jaipur.xml" value="0.171" />
+        <entry key="..\:/Stealth/app/src/main/res/drawable/ic_kolkata.xml" value="0.171" />
+        <entry key="..\:/Stealth/app/src/main/res/drawable/ic_left_arrow.xml" value="0.1" />
+        <entry key="..\:/Stealth/app/src/main/res/drawable/ic_left_arrow_svgrepo_com.xml" value="0.1" />
+        <entry key="..\:/Stealth/app/src/main/res/drawable/ic_lucknow.xml" value="0.171" />
+        <entry key="..\:/Stealth/app/src/main/res/drawable/ic_male.xml" value="0.2085" />
+        <entry key="..\:/Stealth/app/src/main/res/drawable/ic_monitor_weight.xml" value="0.290625" />
+        <entry key="..\:/Stealth/app/src/main/res/drawable/ic_mumbai.xml" value="0.2025" />
+        <entry key="..\:/Stealth/app/src/main/res/drawable/ic_newdelhi.xml" value="0.171" />
+        <entry key="..\:/Stealth/app/src/main/res/drawable/ic_pune.xml" value="0.171" />
+        <entry key="..\:/Stealth/app/src/main/res/drawable/ic_right_arrow.xml" value="0.1055" />
+        <entry key="..\:/Stealth/app/src/main/res/drawable/ic_rrow_right.xml" value="0.195" />
+        <entry key="..\:/Stealth/app/src/main/res/drawable/ic_shome.xml" value="0.124" />
+        <entry key="..\:/Stealth/app/src/main/res/drawable/ic_sleep.xml" value="0.10555555555555556" />
+        <entry key="..\:/Stealth/app/src/main/res/drawable/ic_sleeping.xml" value="0.2" />
+        <entry key="..\:/Stealth/app/src/main/res/drawable/ic_sura.xml" value="0.171" />
+        <entry key="..\:/Stealth/app/src/main/res/drawable/ic_surat.xml" value="0.171" />
+        <entry key="..\:/Stealth/app/src/main/res/drawable/ic_temp.xml" value="0.2325" />
+        <entry key="..\:/Stealth/app/src/main/res/drawable/ic_temp_thermo.xml" value="0.2325" />
+        <entry key="..\:/Stealth/app/src/main/res/drawable/ic_thermo.xml" value="0.2325" />
+        <entry key="..\:/Stealth/app/src/main/res/drawable/ic_voltage.xml" value="0.195" />
+        <entry key="..\:/Stealth/app/src/main/res/drawable/ic_walking.xml" value="0.10555555555555556" />
+        <entry key="..\:/Stealth/app/src/main/res/drawable/leftsleepdesign.xml" value="0.1695" />
+        <entry key="..\:/Stealth/app/src/main/res/drawable/progesss_heart_rate.xml" value="0.2" />
+        <entry key="..\:/Stealth/app/src/main/res/drawable/progress_bar_background.xml" value="0.1" />
+        <entry key="..\:/Stealth/app/src/main/res/drawable/rightsleepdesign.xml" value="0.1695" />
+        <entry key="..\:/Stealth/app/src/main/res/drawable/text_box_shape.xml" value="0.1361111111111111" />
+        <entry key="..\:/Stealth/app/src/main/res/font/font.xml" value="0.1" />
+        <entry key="..\:/Stealth/app/src/main/res/layout-v28/fragment_health.xml" value="0.4" />
+        <entry key="..\:/Stealth/app/src/main/res/layout/activity_after_sign.xml" value="0.264" />
+        <entry key="..\:/Stealth/app/src/main/res/layout/activity_common.xml" value="0.264" />
+        <entry key="..\:/Stealth/app/src/main/res/layout/activity_edit_profile.xml" value="0.1" />
+        <entry key="..\:/Stealth/app/src/main/res/layout/activity_main.xml" value="0.27447916666666666" />
+        <entry key="..\:/Stealth/app/src/main/res/layout/activity_splash_screen.xml" value="0.264" />
+        <entry key="..\:/Stealth/app/src/main/res/layout/activity_steps.xml" value="0.27447916666666666" />
+        <entry key="..\:/Stealth/app/src/main/res/layout/activity_walk_through_screen.xml" value="0.176" />
+        <entry key="..\:/Stealth/app/src/main/res/layout/age_dialog.xml" value="0.4" />
+        <entry key="..\:/Stealth/app/src/main/res/layout/bot_msg_rv_item.xml" value="0.4" />
+        <entry key="..\:/Stealth/app/src/main/res/layout/energysaver.xml" value="0.2654911838790932" />
+        <entry key="..\:/Stealth/app/src/main/res/layout/fragment_activity.xml" value="0.4" />
+        <entry key="..\:/Stealth/app/src/main/res/layout/fragment_blank.xml" value="0.27447916666666666" />
+        <entry key="..\:/Stealth/app/src/main/res/layout/fragment_care_bot.xml" value="0.176" />
+        <entry key="..\:/Stealth/app/src/main/res/layout/fragment_city_w_t.xml" value="0.264" />
+        <entry key="..\:/Stealth/app/src/main/res/layout/fragment_d_o_b_m_t.xml" value="0.264" />
+        <entry key="..\:/Stealth/app/src/main/res/layout/fragment_device.xml" value="0.264" />
+        <entry key="..\:/Stealth/app/src/main/res/layout/fragment_forgot_password.xml" value="0.264" />
+        <entry key="..\:/Stealth/app/src/main/res/layout/fragment_friend.xml" value="0.27447916666666666" />
+        <entry key="..\:/Stealth/app/src/main/res/layout/fragment_gender_w_t.xml" value="0.264" />
+        <entry key="..\:/Stealth/app/src/main/res/layout/fragment_health.xml" value="0.264" />
+        <entry key="..\:/Stealth/app/src/main/res/layout/fragment_height_w_t.xml" value="0.264" />
+        <entry key="..\:/Stealth/app/src/main/res/layout/fragment_home.xml" value="0.264" />
+        <entry key="..\:/Stealth/app/src/main/res/layout/fragment_home_main.xml" value="0.4" />
+        <entry key="..\:/Stealth/app/src/main/res/layout/fragment_log_in.xml" value="0.264" />
+        <entry key="..\:/Stealth/app/src/main/res/layout/fragment_name_w_t.xml" value="0.536" />
+        <entry key="..\:/Stealth/app/src/main/res/layout/fragment_profile.xml" value="0.264" />
+        <entry key="..\:/Stealth/app/src/main/res/layout/fragment_sign_in.xml" value="0.4" />
+        <entry key="..\:/Stealth/app/src/main/res/layout/fragment_top_health.xml" value="0.264" />
+        <entry key="..\:/Stealth/app/src/main/res/layout/fragment_top_home.xml" value="0.4" />
+        <entry key="..\:/Stealth/app/src/main/res/layout/fragment_w.xml" value="0.27447916666666666" />
+        <entry key="..\:/Stealth/app/src/main/res/layout/fragment_weight.xml" value="0.264" />
+        <entry key="..\:/Stealth/app/src/main/res/layout/fragment_weight2.xml" value="0.27447916666666666" />
+        <entry key="..\:/Stealth/app/src/main/res/layout/fragment_weight_w_t.xml" value="0.264" />
+        <entry key="..\:/Stealth/app/src/main/res/layout/gender_dialog.xml" value="0.8" />
+        <entry key="..\:/Stealth/app/src/main/res/layout/heartrate.xml" value="0.27447916666666666" />
+        <entry key="..\:/Stealth/app/src/main/res/layout/height_dialog.xml" value="0.264" />
+        <entry key="..\:/Stealth/app/src/main/res/layout/lightcontrol.xml" value="0.27447916666666666" />
+        <entry key="..\:/Stealth/app/src/main/res/layout/name_dialog.xml" value="0.4" />
+        <entry key="..\:/Stealth/app/src/main/res/layout/sleep.xml" value="0.264" />
+        <entry key="..\:/Stealth/app/src/main/res/layout/soidmoisture.xml" value="0.27447916666666666" />
+        <entry key="..\:/Stealth/app/src/main/res/layout/soilmoisture.xml" value="0.38078034682080925" />
+        <entry key="..\:/Stealth/app/src/main/res/layout/steps.xml" value="0.264" />
+        <entry key="..\:/Stealth/app/src/main/res/layout/tempcontroller.xml" value="0.27447916666666666" />
+        <entry key="..\:/Stealth/app/src/main/res/layout/user_msg_rv_item.xml" value="0.4" />
+        <entry key="..\:/Stealth/app/src/main/res/layout/weight.xml" value="0.264" />
+        <entry key="..\:/Stealth/app/src/main/res/layout/weight_dialog.xml" value="0.4" />
+        <entry key="..\:/Stealth/app/src/main/res/layout/weight_home_dialog.xml" value="0.27447916666666666" />
+        <entry key="..\:/Stealth/app/src/main/res/menu/bottom_nav_menu.xml" value="0.1" />
+        <entry key="..\:/Stealth/app/src/main/res/menu/menu.xml" value="0.27025641025641023" />
+        <entry key="..\:/Stealth/app/src/main/res/mipmap-anydpi-v26/ic_foot.xml" value="0.174" />
+        <entry key="..\:/myProjects/smartWatch/app/Stealth/app/src/main/res/drawable/arrow_down.xml" value="0.231" />
+        <entry key="..\:/myProjects/smartWatch/app/Stealth/app/src/main/res/drawable/button_shape.xml" value="0.1" />
+        <entry key="..\:/myProjects/smartWatch/app/Stealth/app/src/main/res/layout/activity_after_sign.xml" value="0.27447916666666666" />
+        <entry key="..\:/myProjects/smartWatch/app/Stealth/app/src/main/res/layout/activity_edit_profile.xml" value="0.24814814814814815" />
+        <entry key="..\:/myProjects/smartWatch/app/Stealth/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/myProjects/smartWatch/app/Stealth/app/src/main/res/layout/activity_splash_screen.xml" value="0.27447916666666666" />
+        <entry key="..\:/myProjects/smartWatch/app/Stealth/app/src/main/res/layout/activity_walk_through_screen.xml" value="0.1" />
+        <entry key="..\:/myProjects/smartWatch/app/Stealth/app/src/main/res/layout/age_dialog.xml" value="0.22407407407407406" />
+        <entry key="..\:/myProjects/smartWatch/app/Stealth/app/src/main/res/layout/energysaver.xml" value="0.27447916666666666" />
+        <entry key="..\:/myProjects/smartWatch/app/Stealth/app/src/main/res/layout/fragment_activity.xml" value="0.4" />
+        <entry key="..\:/myProjects/smartWatch/app/Stealth/app/src/main/res/layout/fragment_d_o_b_m_t.xml" value="0.27447916666666666" />
+        <entry key="..\:/myProjects/smartWatch/app/Stealth/app/src/main/res/layout/fragment_device.xml" value="0.27447916666666666" />
+        <entry key="..\:/myProjects/smartWatch/app/Stealth/app/src/main/res/layout/fragment_forgot_password.xml" value="0.22407407407407406" />
+        <entry key="..\:/myProjects/smartWatch/app/Stealth/app/src/main/res/layout/fragment_home_main.xml" value="0.176" />
+        <entry key="..\:/myProjects/smartWatch/app/Stealth/app/src/main/res/layout/fragment_log_in.xml" value="0.264" />
+        <entry key="..\:/myProjects/smartWatch/app/Stealth/app/src/main/res/layout/fragment_sign_in.xml" value="0.264" />
+        <entry key="..\:/myProjects/smartWatch/app/Stealth/app/src/main/res/menu/bottom_nav_menu.xml" value="0.264" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.264" />
+      </ProjectState>
+    </option>
+  </component>
+</project>
